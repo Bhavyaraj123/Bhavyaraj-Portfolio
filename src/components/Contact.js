@@ -81,10 +81,10 @@ const Contact = () => {
                 <div className="flex-grow pl-6 flex flex-col sm:flex-row items-start">
                   <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                     <h2 className="font-bold title-font text-transparent bg-clip-text bg-tsecondary mb-1 text-xl">
-                      Address<i className="fa-solid ml-2 fa-location-dot" style={{ color: '#B197FC' }}></i>
+                      Location <i className="fa-solid ml-2 fa-location-dot" style={{ color: '#B197FC' }}></i>
                     </h2>
                     <p className="leading-relaxed text-white w-3/4">
-                      F-206, Galaxy Residency, Naroda-Kathwada Road, Naroda Ahmedabad-382330
+                       Ahmedabad , India
                     </p>
                   </div>
                 </div>

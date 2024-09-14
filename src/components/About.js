@@ -107,7 +107,7 @@ const About = () => {
                       <p className="text-white"> 2022-2025 -Undergraduate</p>
                       <p className="leading-relaxed text-white ">
                         Currently I am pursuing Bachelor Of Vocation in the
-                        Information Technology at Silver University.
+                        Information Technology at Silver Oak.
                       </p>
                     </div>
                   </div>
@@ -154,7 +154,7 @@ const About = () => {
                       <p className="text-md text-white"> Percentage : 76.67%</p>
                       <p className="text-md text-white"> Percentile : 94.73</p>
                       <p className="leading-relaxed text-md text-white ">
-                        I successfully completed my Higher Secondary Education
+                        I successfully completed my Secondary Education
                         (SSC) from Satyam Vidhyalaya, Naroda{" "}
                       </p>
                     </div>
