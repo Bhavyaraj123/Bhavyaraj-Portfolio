@@ -36,7 +36,7 @@ const Project = () => {
               <span className="badge bg-blue-500 text-white px-3 py-2 rounded-full">Tailwind</span>
               <span className="badge bg-blue-500 text-white px-3 py-2 rounded-full">Bootstrap</span>
             </div>
-          <a href="text-utils-bice-pi.vercel.app" target="_blank" rel="noreferrer noopener">
+          <a href="https://text-utils-bice-pi.vercel.app/" target="_blank" rel="noreferrer noopener">
             <button className="mt-4 py-2 px-4 text-sm font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg shadow-md hover:opacity-90 hover:scale-105 transition-transform duration-300 ease-in-out flex items-center justify-center">
               View Project <i className="fas fa-arrow-right ml-2"></i>
             </button>
