@@ -80,29 +80,25 @@ const Home = () => {
             <h1 className="text-2xl md:text-4xl font-semibold flex mt-3 tracking-tighter" data-aos="fade-up" data-aos-delay="400">
               Frontend Developer <i className="fa-solid ml-3 fa-code" style={{color: "#B197FC"}}></i>
             </h1>
-            <li data-aos="fade-up"  data-aos-delay="300"> 
-                            <ul className='flex flex-row rounded '>
-                                <div className='bg-white rounded-full flex items-center justify-center w-8 h-8 mx-1 cursor-pointer'>
-                                    <a href="https://www.linkedin.com/in/bhavyaraj-bihola-176862276/" target='_blank ' rel="noreferrer">
-                                <li className='text-md transition-all duration-300 p-1 md:p-0  '><i class="fa-brands fa-linkedin-in" style={{color: "#0A66C2"}}></i></li>
-                                    </a>
-                                </div>
-
-                                <div className='bg-white rounded-full flex items-center justify-center w-8 h-8 mx-1 cursor-pointer'>
-                                    <a href="https://github.com/Bhavyaraj123" target='_blank' rel="noreferrer">
-                                <li className='text-md transition-all duration-300 p-1 md:p-0 '><i class="fa-brands fa-github" style={{color: "#020203"}}></i></li>
-                                    </a>
-                                </div>
-
-                                <div className='bg-white rounded-full flex items-center justify-center w-8 h-8 mx-1 cursor-pointer'>
-                                    <a href="https://www.instagram.com/bhavyraj_sinh_2605/" target='_blank '>
-                                <li className='text-md transition-all duration-300 p-1 md:p-0 mx-4 '><i class="fa-brands  fa-instagram" style={{color: "#FE02BB"}}></i></li>
-                                    </a>
-                                </div>
-                            </ul>
-
-
-                        </li>
+            <span className="inline-flex sm:ml-auto sm:mt-0 mt- justify-center sm:justify-start ." >
+            <ul className="flex flex-row rounded mt-4" data-aos="fade-in" data-aos-delay="300">
+              <div className="bg-white rounded-xl flex text-3xl items-center justify-center w-12 h-12 mr-2 cursor-pointer transition-all duration-300 p-1 md:p-2 hover:scale-105">
+                <a href="https://www.linkedin.com/in/bhavyaraj-bihola-176862276/" target="_blank" rel="noreferrer">
+                  <i className="fa-brands fa-linkedin-in" style={{ color: "#0A66C2" }}></i>
+                </a>
+              </div>
+              <div className="bg-white rounded-xl flex text-3xl items-center justify-center w-12 h-12   cursor-pointer transition-all duration-300 p-1 md:p-2 hover:scale-105" >
+                <a href="https://github.com/Bhavyaraj123" target="_blank" rel="noreferrer">
+                  <i className="fa-brands fa-github" style={{ color: "#020203" }}></i>
+                </a>
+              </div>
+              <div className="bg-white rounded-xl flex text-3xl items-center justify-center w-12 h-12 ml-2 cursor-pointer transition-all duration-300 p-1 md:p-2 hover:scale-105">
+                <a href="https://www.instagram.com/bhavyraj_sinh_2605/" target="_blank" rel="noreferrer">
+                  <i className="fa-brands fa-instagram" style={{ color: "#FE02BB" }}></i>
+                </a>
+              </div>
+            </ul>
+          </span>
             <p className='text-md md:text-xl text-justify tracking-tight mt-4' data-aos="fade-up" data-aos-delay="400">
             Welcome to my creative corner ! I’m a final year student with 3 months of hands-on experience in React development. I’m passionate about creating dynamic and responsive web applications. Currently, I’m seeking opportunities to apply my skills and contribute to exciting projects. Let’s connect!            </p>
             <button onClick={() => setVisible(true)} className="button w-full md:w-auto mt-8 py-2 mb-5 px-4 text-sm md:text-lg md:py-3 md:px-6 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold hover:opacity-90 hover:scale-105 transition-transform duration-300 ease-in-out flex items-center justify-center" data-aos="fade-up" data-aos-delay="300">

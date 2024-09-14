@@ -1,7 +1,7 @@
 import React, { useEffect,useState   } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import info from "../assets/info.png";
+// import info from "../assets/info.png";
 import resume from "../resume/Bhavyaraj_resume.pdf";
 import Model from 'react-modal';
 import { ToastContainer, toast } from 'react-toastify';
@@ -78,7 +78,7 @@ const About = () => {
           data-aos-delay="300"
           id="about"
         >
-          About Me <img src={info} alt="" className="w-5 h-5" />
+          About Me <i class="fa-regular fa-address-card ml-2 " style={{color: "#B197FC"}}></i>
         </h2>
 
         <section>
