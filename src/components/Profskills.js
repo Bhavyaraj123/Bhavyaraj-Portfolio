@@ -21,7 +21,7 @@ const SkillBar = ({ name, level }) => {
   
   <div className='mb-4 '  >
     <div className='flex justify-between items-center mb-2 '>
-      <span className='font-semibold text-2xl  text-transparent bg-clip-text bg-tsecondary'>{name}</span>
+      <span className='font-semibold md:text-2xl text-lg  text-transparent bg-clip-text bg-tsecondary'>{name}</span>
       <span className='text-white'  >{level}%</span>
     </div>
     <div className='relative w-full bg-gray-600 rounded h-3'>
@@ -41,12 +41,12 @@ const Profskills = () => {
         
     return(
    
-  <div className='bg-custom-bg mx-24 py-10 'id='skills' data-aos='fade-up' data-aos-delay="300" >
+  <div className='bg-custom-bg md:mx-24 mx-16 py-10 'id='skills' data-aos='fade-up' data-aos-delay="300" >
     <h2 className='text-4xl font-bold pb-7 text-center text-white' data-aos="fade-in" data-aos-delay="300">
       Professional Skills
       <i className="fa-solid ml-2 fa-code" style={{ color: "#B197FC" }}></i>
     </h2>
-    <div className='container mx-auto px-4  w-full border rounded-xl border-[#cca8e9] p-10'>
+    <div className='container mx-auto px-1  w-full border rounded-xl border-[#cca8e9] p-10'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
         {skills.map(skill => (
           <SkillBar key={skill.name} name={skill.name} level={skill.level} />
