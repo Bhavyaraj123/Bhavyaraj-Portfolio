@@ -10,6 +10,7 @@ const skills = [
   { name: 'Bootstrap', level: 85 },
   { name: 'jQuery', level: 75 },
   { name: 'Tailwind CSS', level: 85 },
+  { name: 'Github', level: 75 },
 ];
 
 const SkillBar = ({ name, level }) => {
