@@ -58,6 +58,22 @@ const Project = () => {
               </button>
             </a>
           </div>
+
+
+          <div className="project-card flex flex-col justify-center items-center border border-secondary p-4 bg-gray-50 rounded-lg shadow-md" data-aos="fade-left" data-aos-delay="300">
+            <h2 className="text-2xl font-semibold bg-clip-text text-transparent bg-tsecondary mb-4">penny pinch</h2>
+            <p className="text-gray-700">Expense and income tracking website</p>
+            <div className="flex flex-row gap-2 mt-4">
+              <span className="badge bg-blue-500 text-white px-3 py-2 rounded-full">React</span>
+              <span className="badge bg-blue-500 text-white px-3 py-2 rounded-full">Tailwind</span>
+            </div>
+        
+            <a href="https://penny-pinch-ashen.vercel.app/" target="_blank" rel="noreferrer noopener">
+              <button className="mt-4 py-2 px-4 text-sm font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg shadow-md hover:opacity-90 hover:scale-105 transition-transform duration-300 ease-in-out flex items-center justify-center">
+                View Project <i className="fas fa-arrow-right ml-2"></i>
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
