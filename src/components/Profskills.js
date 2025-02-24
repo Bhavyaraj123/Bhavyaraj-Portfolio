@@ -12,7 +12,8 @@ const skills = [
   { name: 'Tailwind CSS', level: 85 },
   { name: 'Github', level:80 },
   { name: 'Webflow', level:70 },
-  { name: 'Express ', level:50 },
+  { name: 'Express ', level:70 },
+  { name: 'MongoDB ', level:70 },
 ];
 
 const SkillBar = ({ name, level }) => {

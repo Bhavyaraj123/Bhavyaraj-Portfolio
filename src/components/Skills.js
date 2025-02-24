@@ -6,6 +6,8 @@ import react from "../assets/react.png";
 import jquery from "../assets/jquery.png";
 import bootstrap from "../assets/bootstrap.png";
 import tailwind from "../assets/tailwind.png";
+import express from "../assets/express.png"
+import mongo from "../assets/MongoDB.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import git from '../assets/github.png'
@@ -112,6 +114,28 @@ const[hover,sethover]=useState();
             {hover==="Github" &&(
               <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white text-dark font-semibold  text-sm py-1 px-2 rounded-md">
               Github 
+            </div>
+            )}
+            </div>
+<div className="relative ">
+
+            <div className=" p-4 bg-white rounded-3xl  w-24 h-24 mx-6 flex justify-center items-center"  data-aos="fade-in" data-aos-delay="300" onMouseEnter={()=>{sethover("Express")}} onMouseLeave={()=>{sethover(" ")}}>
+              <img src={express} alt="" className="w-16 h-16  " />
+            </div>
+            {hover==="Express" &&(
+              <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white text-dark font-semibold  text-sm py-1 px-2 rounded-md">
+              Express.js 
+            </div>
+            )}
+            </div>
+<div className="relative ">
+
+            <div className=" p-4 bg-white rounded-3xl  w-24 h-24 mx-6 flex justify-center items-center"  data-aos="fade-in" data-aos-delay="300" onMouseEnter={()=>{sethover("MongoDB")}} onMouseLeave={()=>{sethover(" ")}}>
+              <img src={mongo} alt="" className="w-16 h-16  " />
+            </div>
+            {hover==="MongoDB" &&(
+              <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-white text-dark font-semibold  text-sm py-1 px-2 rounded-md">
+              MongoDB
             </div>
             )}
             </div>
