@@ -78,7 +78,7 @@ const Home = () => {
             </h1>
 
             <h1 className="text-2xl md:text-4xl font-semibold flex mt-3 tracking-tighter" data-aos="fade-up" data-aos-delay="400">
-              Frontend Developer <i className="fa-solid ml-3 fa-code" style={{color: "#B197FC"}}></i>
+            Full-stack development <i className="fa-solid ml-3 fa-code" style={{color: "#B197FC"}}></i>
             </h1>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt- justify-center sm:justify-start ." >
             <ul className="flex flex-row rounded mt-4" data-aos="fade-in" data-aos-delay="300">
