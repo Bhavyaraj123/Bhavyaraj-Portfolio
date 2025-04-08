@@ -173,7 +173,7 @@ const About = () => {
               data-aos-delay="300"
             >
               <h1 className="text-2xl md:text-4xl font-semibold mt-3 tracking-tighter bg-clip-text text-transparent bg-tsecondary">
-                Frontend Developer
+              Full-Stack Developer
                 <i
                   className="fa-solid fa-code"
                   style={{ color: "#B197FC" }}
