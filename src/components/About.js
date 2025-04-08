@@ -79,7 +79,7 @@ const About = () => {
         >
           About Me{" "}
           <i
-            class="fa-regular fa-address-card ml-2 "
+            className="fa-regular fa-address-card ml-2 "
             style={{ color: "#B197FC" }}
           ></i>
         </h2>

@@ -8,7 +8,7 @@ const Project = () => {
   }, []);
 
   return (
-    <div className="bg-[#0e244167] overflow-x-hidden">
+    <div className="bg-[#0e244167] overflow-x-hidden" id='project'>
       <h2 className="text-center py-5 text-4xl font-bold text-white" data-aos="fade-in" data-aos-delay="300">
         Latest Work <i className="fa-solid ml-2 fa-laptop-code" style={{ color: "#B197FC" }}></i>
       </h2>

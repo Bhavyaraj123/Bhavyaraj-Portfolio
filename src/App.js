@@ -11,7 +11,7 @@ import  Footer from "./components/Footer"
 function App() {
   return (
       <div className="bg-custom-bg text-white w-full h-full overflow-hidden">
-        <Navbar Home="Home" About="About" Experience="Experience" Skills="Skills" Contact="Contact"/>
+        <Navbar Home="Home" About="About" Experience="Experience" Skills="Skills" Contact="Contact" Project="Project"/>
         <Home/>
         <Skills />
         <About/>
