@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Cover Mitra",
     description: "Insurance and Finance website",
-    tech: ["React","Node","Tailwind"],
+    tech: ["React","Node","express","MongoDB","Tailwind"],
     link: "https://cover-mitra.vercel.app/",
     animation: "fade-left"
   },
